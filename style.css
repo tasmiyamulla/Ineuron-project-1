@@ -1,0 +1,182 @@
+body{
+ 
+  margin:0px;
+  padding:0px;
+  font-family: "Orbitron";
+}
+.container{
+  height: 100vh;
+  width:90%;
+  margin:auto;
+  
+}
+.navbar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+
+}
+.navbar-container div:nth-child(2){
+width: 50%;
+}
+nav .list{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+
+}
+
+ul li:first-child{
+  border-bottom: 2px solid #000000;
+  font-weight: 600;
+  font-size: 25px;
+}
+.list-item{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.list-item:hover{
+  border-bottom: 2px solid #000000;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navbar-container img{
+  
+  margin: auto;
+  width:100px;
+}
+.button-group{
+  display: flex;
+  flex-direction: row;
+  width:20%;
+  align-items: center;
+
+}
+
+.search-icon { 
+  width:40px;
+}
+
+svg{
+  height: 21px;
+}
+
+.nav-button{
+  font-family: "Poppins";
+  padding: 2px 30px;
+  font-size: 18px;
+  border-radius: 12px;
+  background-color: transparent;
+  color: #2e2e2e;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.square{
+  position: absolute;
+  z-index: -1;
+  top:55%;
+  left:14%;
+  
+}
+.square img{
+  width: 240px;
+  
+}
+.star{
+  position:absolute;
+  right:10%;
+  top:25%;
+
+}
+
+.star img{
+  width:60%;
+}
+
+.globe{
+  position: absolute;
+  left:50%;
+}
+.globe img{
+  width:60%;
+}
+
+.hero-container div img{
+  width:300px;
+  margin-top:25px;
+}
+
+.hero-container-right{
+ margin-left: 70px ;
+ padding:40px 10px;
+}
+
+.hero-heading{
+  font-size: 3.0em;
+  text-align: center;
+}
+.hero-description{
+  font-family: "Poppins";
+  font-size: 12px;
+  color: #2e2e2e;
+  text-align: center;
+  padding: 0px 100px;
+}
+
+.hero-container div{
+  text-align: center;
+
+}
+
+.button-email,.button-join{
+  font-family: "Orbitron";
+padding: 2px 20px;
+
+border-radius: 6px;
+background-color: transparent;
+color: #2e2e2e;
+font-size: 15px;
+margin: 30px 0px 10px 0px;
+}
+
+.button-join{
+ font-size: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0px 8px;
+  margin-left:10px;
+  border-radius: 6px;
+}
+.contact-heading{
+  font-family: "Poppins";
+  margin: 40px 0px 10px 0px;
+}
+.icons img{
+  max-width:30px;
+  max-height: 30px;
+  margin: 0px 10px !important;
+  
+
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+height: 30px;
+margin: 0px;
+
+}
+
+.icon span{
+  height: 0px !important;
+}
